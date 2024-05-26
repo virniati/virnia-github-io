@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+    <title>Navbar Header</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    padding: 20px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #fff;
+    margin: 0;
+    width: -1000px;
+    margin-left: 10px;
+  
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-links li a:hover {
+    text-decoration: underline;
+}
+
+  .center {
+    text-align: center;
+  }
+
+  .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40vh;
+    }
+    .container img {
+        max-width: 150px; /* Pastikan gambar tidak melebihi lebar container */
+        max-height: 150px; /* Pastikan gambar tidak melebihi tinggi container */
+    }
+
+    .card-img-0 {
+        height: 200px;
+    }
+
+    .p0 {
+      font-family: Sitka Small Semibold;
+    }
+
+    .card-title {
+      font-family: Sitka Small Semibold;
+    }
+
+    /* BAGIAN HEADER */
+</style>
+
+<nav class="navbar navbar-dark bg-dark fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">SMKN 1 PETASIA TIMUR</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link" href="home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="jurusan.html">Jurusan</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="galery.html">Galery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="alamat.html">Alamat</a>
+          </li>
+        
+         <a href="http://localhost/TUGASS/CRUD%20-%20SEKOLAH/login.php"> <button class="btn btn-success" type="submit">Login</button></a>
+        </form>
+      </div>
+    </div>
+  </div>
+</nav>
+
+    
+    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/foto sekolah 1.jpeg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/foto skolah 2.jpeg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/fto skolah 4.jpeg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <br>
+      <div class="center">
+        <h3 class="p0"><marquee behavior="" direction="">Selamat Datang di Website SMK 1 PETASIA TIMUR, kami Menyediakan Beberapa Jurusan di Sekolah Kami Pada Situs ini, Semoga Bermanfaat</marquee></h3>
+      </div>
+      <br>
+      <div class="row row-cols-1 row-cols-md-4 g-4">
+        <div class="col">
+            <div class="card h-100">
+                <img src="img/foto kepsek.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"><i>Sambutan Kepala Sekolah</i></h5>
+                    <p class="card-text">Semoga dengan hadirnya website SMKN 1 Petasia Timur. Situs web ini bertujuan untuk memperkenalkan dan memanfaatkan dunia teknologi internet,, semoga situs web ini dapat memberikan manfaat positif basi siapa saja yang mengunjungi.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-9 order-md-2"> <!-- Kolom berada di sebelah kanan pada layar medium dan lebih besar -->
+            <div class="card h-100">
+                <!-- <img src="..." class="card-img-top" alt="..."> -->
+                <div class="card-body">
+                    <h5 class="card-title">Fisi Misi</h5>
+                    <p class="card-text">Mewujudkan sekolah berjiwa pancasila merdeka belajar berbudaya kerja industri skala internasional.<br><br>
+                        MISI____ <br>
+                        Menyiapkan SDM yang berkualitas dan mampu bersaing di era global.
+                        Menyiapkan lulusan pelajar pancasila yang berkarakter sigap, tanggap, tangguh, terampil, berjiwa wirausaha berakhlak mulia dan mampu mengembangkan diri sesuai dengan perkembangan zaman.
+                        Mewujudkan iklim kerja yang kondusif, berakar pada norma dan budaya bangsa untuk kesejahteraan bersama.
+                        Meningkatkan pelayanan prima kepada masyarakat sesuai dengan standar pelayanan dan pengelolaan yang sesuai dengan sistem manajemen mutu.
+                        Mewujudkan lingkungan pendidikan yang menyenangkan. <br>
+                        TUJUAN____ <br>
+                        1. Menyelenggarakan pendidikan dan kepelatihan bagi SDM sekolah yang selaras dengan perkembangan ilmu pengetahuan, teknologi, dinamika sosial dan budaya bangsa.<br>
+                        2. Menyelenggarakan pendidikan dan pembelajaran berdasarkan kurikulum nasional berbasis kearifan lokal dalam Kerangka Kompetensi Nasional Indonesia.<br>
+                        3. Membangun etos kerja dalam lingkungan yang nyaman untuk senantiasa berprestasi tiada henti.<br>
+                        4. Membangun komunikasi dan sinergi kerja antar lini sekolah yang solid dengan mengedepankan sasaran mutu dan prosedur operasional standar.<br>
+                        5. Menciptakan tata kelola lin
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- Kolom-kolom lainnya -->
+    </div>
+    <br>
+    <div class="row row-cols-8 row-cols-md-4 g-4">
+      <div class="card h-100">
+        <div class="container text-center"> <!-- Tambahkan kelas text-center di sini -->
+            <img src="img/p.jpeg" class="card-img-top" alt="...">
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">Pendidikan Vokasi</h5>
+            <p class="card-text">Program Vokasi program pendidikan pada jenjang <br> pendidikan tinggi..</p>
+        </div>
+    </div>    
+      <div class="col">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Masa Depan Unggul</h5>
+              <p class="card-text">Menunjukkan komitmen kami untuk memberikan pendidikan berkualitas tinggi yang mempersiapkan siswa untuk sukses dalam kehidupan dunia dan akhirat.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Prestasi Tanpa Batas</h5>
+            <p class="card-text">Mendorng inovasi, kreativitas, dan prestasi. Dalam sekolah ini, siswa didoong untuk berpikir di luar batas dan prestasi yang luar biasa dalamberbagai bidang.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Karakter Berkualitas</h5>
+            <p class="card-text">Dengan penekanan pada nilai-nilai moral, tika, dan kepemimpinan, sekolah ini bertujuan untukmenciptakan generasi pemimpin yang tangguh dan berpengaruh.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+      <br><br><br>
+
+      <div class="card text-bg-dark">
+        <img src="img/foto bawah.jpeg" class="card-img-0" alt="...">
+        <div class="card-img-overlay">
+          <h5 class="card-title">WEBSITE</h5>
+          <p class="card-text">SMKN 1 PETASIA TIMUR</p>
+          <p class="card-text"><small> <i>2024______By virniyati</i></small></p>
+        </div>
+      </div>
+
+
+</body>
+</html>
